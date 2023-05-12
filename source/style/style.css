@@ -1,0 +1,153 @@
+/* .content {
+  display: flex;
+  flex-direction: column;
+} */
+* {
+  margin: 0;
+  color: rgb(255, 199, 142);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(45, 23, 1);
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+  flex: 2 0 auto;
+}
+section {
+  flex: 1 0 auto;
+}
+footer {
+  flex: 0 0 auto;
+
+  /* border-radius: 8px; */
+  border: 10px;
+}
+/* top line */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex a {
+  font-size: 150%;
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  color: rgb(255, 199, 142);
+}
+/* panel */
+.nav {
+  padding: 0;
+  display: block;
+
+  background-color: rgb(255, 199, 142);
+  border-radius: 8px;
+}
+.navbar {
+  display: block;
+}
+/* list */
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list a {
+  width: 100px;
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  color: rgb(45, 23, 1);
+}
+.nav-list a:hover {
+  /* width: 100px; */
+  background-color: rgb(185, 140, 92);
+  border-radius: 8px;
+}
+/* button */
+.nav-but {
+  font-size: 250%;
+  border: none;
+  padding: 10px;
+  background-color: rgb(45, 23, 1);
+  color: rgb(255, 199, 142);
+}
+.nav-but:hover {
+  background-color: rgb(185, 140, 92);
+  border-radius: 8px;
+}
+
+.nav-but {
+  display: none;
+}
+/* media */
+@media (max-width: 991px) {
+  html {
+    font-size: 90%;
+  }
+  .nav-but {
+    display: inline;
+  }
+  .nav {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(45, 23, 1);
+  }
+
+  .navbar {
+    position: absolute;
+    display: none;
+    /* width: 10%; */
+    justify-content: center;
+    /* flex-flow: column; */
+    z-index: 2;
+    background-color: rgb(255, 199, 142);
+    border-radius: 8px;
+  }
+  .navbar.active {
+    display: flex;
+  }
+  .nav-list {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+  .nav-but {
+    display: inline;
+  }
+  .nav {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(45, 23, 1);
+  }
+  .navbar {
+    position: absolute;
+    display: none;
+    /* width: 10%; */
+    justify-content: center;
+    /* flex-flow: column; */
+    z-index: 2;
+
+    background-color: rgb(255, 199, 142);
+    border-radius: 8px;
+  }
+  .navbar.active {
+    display: flex;
+  }
+  .nav-list {
+    display: block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,19 @@
+footer {
+  color: rgb(255, 199, 142);
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.foot p {
+  display: block;
+  text-align: center;
+}
+.foot a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 199, 142);
+}

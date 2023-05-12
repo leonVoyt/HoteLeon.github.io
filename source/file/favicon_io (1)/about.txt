@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Italianno
+- Font Author: Copyright 2009 The Italianno Project Authors (https://github.com/googlefonts/italianno)
+- Font Source: http://fonts.gstatic.com/s/italianno/v17/dg4n_p3sv6gCJkwzT6Rnj5YpQwM-gg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
